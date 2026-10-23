@@ -8,17 +8,20 @@ public class Main {
 
         ArrayList<Book> books = new ArrayList<>();
 
-        Book HP = new Book(1,
+        Book HP = new Book("Harry Potter",
+                1,
                 "978-0590353403",
                 false,
                 null);
 
-        Book TMR = new Book (2,
+        Book TMR = new Book ("The Maze Runner",
+                2,
                 "978-0-385-73794-4",
                 false,
                 null);
 
-        Book Hob = new Book (3,
+        Book Hob = new Book ("The Hobbit",
+                3,
                 "978-0547928227",
                 false,
                 null);
@@ -29,6 +32,6 @@ public class Main {
 
         //end of book list setup
 
-
+        TMR.checkOut("Shawn");
     }
 }
